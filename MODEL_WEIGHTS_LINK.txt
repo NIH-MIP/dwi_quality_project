@@ -1,0 +1,6 @@
+Due to concerns regarding the ability to access model weights from GITHUB, the model weights have been removed as of 1/2026.
+
+The model weights (5/2025 training cycle) can be found at the following links:
+
+hib_model_2class.pth: https://drive.google.com/file/d/1TopRzXx5jHpoh8cCU-ZHA6fdq509wj96/view?usp=drive_link
+adc_model_2class.pth: https://drive.google.com/file/d/1iRHarafG3X2vHOZ-RmmJsat_wE0fKFq_/view?usp=drive_link
