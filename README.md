@@ -1,4 +1,4 @@
-# Introduction
+# INTRODUCTION
 
 Thank you so much for your interest in the prostate DWI quality inference! This model takes T2, ADC map, and high-b value DW MRI images and assesses them according to the principles of PI-QUALv2.1.
 
@@ -26,6 +26,9 @@ In this repository, you will find the following files:
 ### Training Pipeline  - Code used for training the current version of the model
 -- quality_model_adc_may1_selfattention_2classes_evaluate.py - pipeline used for training and evaluation of the ADD map arm of the model
 -- quality_model_hib_may1_selfattention_2classes_evaluate.py - pipeline used for training and evaluation of the high-b DW MRI arm of the model
+
+# GETTING STARTED
+
 
 
 
