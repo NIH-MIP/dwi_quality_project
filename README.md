@@ -10,7 +10,7 @@ Note: The model presented here has been trained and tested using Python 3.9.13. 
 
 ## A note on pre-processing of images
 
-A small note on image pre-processing: The necessary pipeline to prepare T2, HiB, and ADC images for inference has been incorporated into the code presented here. 3D registration was not necessary due to the presence of rough 3D registration performed by our MRI machine itself. Thus, we assume the images are in roughly similar 3D space prior to inference. Sub-optimal inference may be observed if this pre-condition is not met.
+A small note on image pre-processing: The necessary pipeline to prepare T2, HiB, and ADC images for inference has been incorporated into the code presented here. 3D registration was not necessary due to the presence of rough 3D registration performed by our MRI machines themselves. Thus, we assume the images are in roughly similar 3D space prior to inference. Sub-optimal inference may be observed if this pre-condition is not met. The authors are aware that this software/3D registration is now a very common feature of most modern MRI machines. For those without this feature, 3D registration may be required prior to use of the enclosed model for optimal results.
 
 ## Files that are contained within this repository:
 
@@ -32,6 +32,7 @@ In this repository, you will find the following files:
 For maximal transparency, NOTHING has been changed in the training pipeline from the code used to train or evaluate the model. The entire training pipeline is included. 
 
 # GETTING STARTED
+
 
 
 
