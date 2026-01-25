@@ -7,7 +7,7 @@
 #
 # Notes:
 # * Class mapping follows your eval code: class 0 = "Diagnostic", class 1 = "Non-Diagnostic".
-# * Fill in ADC_MODEL_PATH and HIB_MODEL_PATH with your .pth checkpoints.
+# * Fill in ADC_MODEL_PATH and HIB_MODEL_PATH with your .pth checkpoints. See the main method of this code for links.
 
 import os, sys
 import torch
@@ -256,10 +256,11 @@ if __name__ == "__main__":
         
     BASE_DIR = getattr(sys, "_MEIPASS", os.path.dirname(os.path.abspath(__file__)))
 
-    # Use filenames only; we’ll place or embed the files later
+    # THESE FILEPATHS ARE TO BE UPDATED BY THE END USER IN ORDER FOR THIS CODE TO FUNCTION
     ADC_MODEL_PATH = os.path.join(BASE_DIR, "adc_model_epoch_99_2class.pth")
     HIB_MODEL_PATH = os.path.join(BASE_DIR, "hib_model_epoch_100_2class.pth")
 
     root = tk.Tk()
     app = InferenceApp(root, adc_model_path=ADC_MODEL_PATH, hib_model_path=HIB_MODEL_PATH)
     root.mainloop()
+
