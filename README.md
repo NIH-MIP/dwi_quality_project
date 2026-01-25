@@ -6,7 +6,7 @@ In order to keep inference lean in a low computational power/CPU-based setting, 
 
 ## A note on the environment
 
-Note: The model presented here has been trained and tested using Python 3.9.13. We find that this version of Python best facilitates MONAI functionality. We recommend using this code in an environment with Python 3.9.13 installed. 
+Note: The model presented here has been trained and tested using Python 3.9.13. We find that this version of Python best facilitates MONAI functionality. We recommend using this code in an environment with Python 3.9.13 installed. In GETTING STARTED, the authors walk the end user through setting up the ideal environment in which to run the model.
 
 ## A note on pre-processing of images
 
@@ -27,7 +27,13 @@ In this repository, you will find the following files:
 -- quality_model_adc_may1_selfattention_2classes_evaluate.py - pipeline used for training and evaluation of the ADD map arm of the model
 -- quality_model_hib_may1_selfattention_2classes_evaluate.py - pipeline used for training and evaluation of the high-b DW MRI arm of the model
 
+For maximal transparency, NOTHING has been changed in the training pipeline from the code used to train or evaluate the model. The entire training pipeline is included. 
+
 # GETTING STARTED
+
+
+
+
 
 
 
