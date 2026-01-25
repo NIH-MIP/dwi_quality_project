@@ -26,11 +26,13 @@ In this repository, you will find the following files:
 
 ### Training Pipeline  - Code used for training the current version of the model
 -- quality_model_adc_may1_selfattention_2classes_evaluate.py - pipeline used for training and evaluation of the ADD map arm of the model
+
 -- quality_model_hib_may1_selfattention_2classes_evaluate.py - pipeline used for training and evaluation of the high-b DW MRI arm of the model
 
 For maximal transparency, NOTHING has been changed in the training pipeline from the code used to train or evaluate the model. The entire training pipeline is included. 
 
 # GETTING STARTED
+
 
 
 
