@@ -18,9 +18,10 @@ In this repository, you will find the following files:
 
 ### GUI Files for Use - "out of the box" files to use the model as currently trained
 
--- quality_inference_gui.py - This file contains the Python code for a basic GUI to import images for inference according to the most up-to-date version of the model. As of 					5/2025, the weights for the ADC arm of the model are contained within adc_model_epoch_99_2class.pth while the weights for the high-b value arm 					of the model are contained within hib_model_epoch_100_2class.py. 
+-- quality_inference_gui.py - This file contains the Python code for a basic GUI to import images for inference according to the most up-to-date version of the model. As of 					5/2025, the weights for the ADC arm of the model are contained within adc_model_epoch_99_2class.pth while the weights for the high-b value arm of the model are contained within hib_model_epoch_100_2class.py. 
 
 -- hib_model_epoch_100_2class.pth - Trained weights for the hib version of the model
+
 -- adc_model_epoch_99_2class.pth - Trained weights for the adc version of the model
 
 ### Training Pipeline  - Code used for training the current version of the model
@@ -30,6 +31,7 @@ In this repository, you will find the following files:
 For maximal transparency, NOTHING has been changed in the training pipeline from the code used to train or evaluate the model. The entire training pipeline is included. 
 
 # GETTING STARTED
+
 
 
 
