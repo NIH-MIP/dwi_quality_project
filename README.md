@@ -31,7 +31,8 @@ In this repository, you will find the following files:
 
 For maximal transparency, NOTHING has been changed in the training pipeline from the code used to train or evaluate the model. The entire training pipeline is included. 
 
-# GETTING STARTED
+
+
 
 
 
